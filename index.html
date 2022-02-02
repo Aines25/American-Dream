@@ -13,7 +13,7 @@
     <!-- Google fonts start -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300;1,600&display=swap" rel="stylesheet">
     <!-- Google fonts end -->
 </head>
 <body>
@@ -26,18 +26,18 @@
 
 
         <!-- Navbar start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container">
-              <a class="navbar-brand col-4" href="#">The American Dream</a>
+              <a class="navbar-brand col-4 text-white" href="#">The American Dream</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav col-12 justify-content-end">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">About</a>
-                  <a class="nav-link" href="#">Gallery</a>
-                  <a class="nav-link" href="#">Top Attractions</a>
+                  <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link text-white" href="#">About</a>
+                  <a class="nav-link text-white" href="#">Gallery</a>
+                  <a class="nav-link text-white" href="#">Top Attractions</a>
                 </div>
               </div>
             </div>
@@ -48,26 +48,27 @@
 
 
         <!-- main landing start -->
-        <div class="container test">
+        <div class="container">
             <div class="row">
-                <div class="col-12 main-text">
-                    <h1> <span id="typed text"></span></h1>
+                <div class="col-8 main-text d-flex flex-column justify-content-center min-vh-100 align-content-center mx-auto">
+                    <h1> <span id="typedtext"></span></h1>
                     <h2>'There is something in the New York air that makes sleep useless.' <br> - Simone Beauvoir</h2>
+                    <div class="mx-auto"><button type="button" class="btn main-btn btn-outline-light">Visit NYC</button></div>
                 </div>
             </div>
         </div>
 
         <!-- main landing end -->
-
-
     </section>
 
+
+    <!-- About section start -->
     <section>
 
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <img src="./resources/images/second-photo.jpg" alt="" class="img-fluid">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img src="./resources/images/second-photo.jpg" alt="" class="img-fluid h-75 w-75">
                 </div>
 
                 <div class="col d-flex justify-content-center flex-column">
@@ -84,10 +85,14 @@
         </div>
 
     </section>
+    <!-- About section end -->
     
 
     <!-- Bootstrap JS start -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Bootstrap JS end -->
+    <!-- javascropt start -->
+    <script src="./resources/javascript/main.js"></script>
+    <!-- javascript end -->
 </body>
 </html>
