@@ -36,3 +36,38 @@ body {
 
 
 /* main landing end */
+
+.quote {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 200;
+  height: 15vh;
+  transition: ease-in-out 1.25s;
+}
+
+.quote-overlay:hover {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.quote:hover {
+  background-image: url(../images/times.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 600px;
+  transition: linear 1.5s;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/* quote section end */
