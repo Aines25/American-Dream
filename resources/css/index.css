@@ -103,6 +103,8 @@ body {
   /* image gallery end */
 
   /* Top attractions start */
-  
+  .img-attrac {
+      border: 1px solid white;
+  }
 
   /* Top attractions end */
