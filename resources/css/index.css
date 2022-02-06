@@ -101,3 +101,12 @@ body {
   }
 
   /* Top attractions end */
+
+  /* Media queries */
+
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .about-nyc {
+        
+    }
+ }
