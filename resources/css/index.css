@@ -106,7 +106,17 @@ body {
 
   /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .about-nyc {
-        
+    .about-nyc h3 {
+      
+    } .attractions {
+        display: flex;
+    } .about-section {
+        display: flex;
+    } .about-nyc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
  }
+
+ 
