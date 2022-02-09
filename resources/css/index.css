@@ -46,8 +46,6 @@ body {
   justify-content: center;
   align-items: center;
   font-style: italic;
-  font-size: 1.5rem;
-  font-weight: 200;
   height: 15vh;
   transition: ease-in-out 1.25s;
 }
@@ -59,52 +57,27 @@ body {
   background-position: center bottom;
   height: 600px;
   transition: linear 1.5s;
-  color: white;
-  font-size: 2em;
-  font-weight: 600;
 }
 
+.quote:hover h5 {
+   display: none;
+}
 
 /* quote section end */
 
-/* image gallery start */
-
-
-.img-row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    width: 60%;
-    margin: auto;
-    margin-top: 30px;
-  }
-  
-  /* Create three equal columns that sits next to each other */
-  .img-column {
-    flex: 30%;
-    max-width: 33%;
-    padding: 0 4px;
-   
-  }
-  
-  .img-column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-
-  /* image gallery end */
-
-  /* Top attractions start */
+/* Top attractions start */
   .img-attrac {
       border: 1px solid white;
   }
 
-  /* Top attractions end */
+/* Top attractions end */
 
-  /* Media queries */
 
-  /* Small devices (landscape phones, 576px and up) */
+
+
+/* Media queries */
+
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .about-nyc h3 {
       
@@ -120,12 +93,13 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
- }
+}
 
+/* Media queries end */
 
- footer {
+footer {
      background-color: #242424;
      color: white;
      border-top: 1px solid white;
- }
+}
  
