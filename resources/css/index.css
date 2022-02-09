@@ -116,6 +116,9 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    } .attractions {
+        display: flex;
+        flex-wrap: wrap;
     }
  }
 
