@@ -29,7 +29,7 @@
         <div class="container-fluid">
            
 
-            <nav class="navbar navbar-expand-lg bg-transparent">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                 <div class="container">
                   <a class="navbar-brand col-4 text-white" href="#">The American Dream</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +38,9 @@
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav col-12 justify-content-end text-center">
                       <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
-                      <a class="nav-link text-white" href="#">About</a>
-                      <a class="nav-link text-white" href="#">Gallery</a>
-                      <a class="nav-link text-white" href="#">Top Attractions</a>
+                      <a class="nav-link text-white" href="#about">About</a>
+                      <a class="nav-link text-white" href="#gallery">Gallery</a>
+                      <a class="nav-link text-white" href="#top-attractions">Top Attractions</a>
                     </div>
                   </div>
                 </div>
@@ -52,7 +52,11 @@
                     <div class="col-12 main-text">
                         <h1> <span id="typedtext"></span></h1>
                         <h2 class="">'There is something in the New York air that makes sleep useless.' <br> - Simone Beauvoir</h2>
-                        <div class="d-flex justify-content-center"><button type="button" class="btn main-btn btn-outline-light">Visit NYC</button></div>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://www.tripadvisor.co.uk/Tourism-g60763-New_York_City_New_York-Vacations.html" target="blank">
+                                <button type="button" class="btn main-btn btn-outline-light">Visit NYC</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div> 
@@ -66,7 +70,7 @@
 
 
     <!-- About section start -->
-    <section>
+    <section id="about">
 
         <div class="container">
             <div class="row about-section">
@@ -109,23 +113,23 @@
 
     <!-- Gallery section start -->
 
-    <section>
+    <section id="gallery">
 
         <div class="container p-5">
             <div class="row g-2">
                 <div class="col-4 d-flex flex-column">
-                    <img src="./resources/images/1.jpg" alt="" class="img-fluid pb-2">
-                    <img src="./resources/images/2.jpg" alt="" class="img-fluid">
+                    <img src="./resources/images/1.jpg" alt="Photo of downtown Manhattan" class="img-fluid pb-2">
+                    <img src="./resources/images/2.jpg" alt="Inside the Oculus building" class="img-fluid">
                 </div>
 
                 <div class="col-4 d-flex flex-column">
-                    <img src="./resources/images/4.jpg" alt="" class="img-fluid pb-2">
-                    <img src="./resources/images/3.jpg" alt="" class="img-fluid">
+                    <img src="./resources/images/4.jpg" alt="Statue of Liberty" class="img-fluid pb-2">
+                    <img src="./resources/images/3.jpg" alt="View of Brooklyn Bridge" class="img-fluid">
                 </div>
 
                 <div class="col-4 d-flex flex-column">
-                    <img src="./resources/images/5.jpg" alt="" class="img-fluid pb-2">
-                    <img src="./resources/images/6.jpg" alt="" class="img-fluid">
+                    <img src="./resources/images/5.jpg" alt="Photo of Radio City" class="img-fluid pb-2">
+                    <img src="./resources/images/6.jpg" alt="Photo of inside a subway station displaying a Police sign" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -135,7 +139,7 @@
     <!-- Gallery section end -->
 
     <!-- Top attractions start -->
-    <section>
+    <section id="top-attractions">
         <div class="container-fluid p-5" style="background-color: #242424; color: white;">
             <div class="row">
                 <div class="col-12 text-center">
@@ -144,11 +148,11 @@
             </div>
 
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-8 attractions mx-auto">
+                <div class="col-12 col-md-12 col-lg-9 attractions mx-auto">
                     <div class="col-12 col-md-4 img-attrac text-center m-3 mx-auto p-2">
                         <p>Empire State Building</p>
                         <div class="attrac-img">
-                            <img src="./resources/images/esb.jpg" alt="" class="img-fluid py-2" style="height: 300px;">
+                            <img src="./resources/images/esb.jpg" alt="Photo of Empire State Building" class="img-fluid py-2" style="height: 300px;">
                         </div>
                         <p>20 W 34th St, New York, NY 10001, United States.</p>
                     </div>
@@ -156,7 +160,7 @@
                     <div class="col-12 col-md-4 img-attrac text-center m-3 mx-auto p-2">
                         <p>Grand Central Station</p>
                         <div class="attrac-img">
-                            <img src="./resources/images/gcs.jpg" alt="" class="img-fluid py-2" style="height: 300px;">
+                            <img src="./resources/images/gcs.jpg" alt="Photo of Grand Central Station" class="img-fluid py-2" style="height: 300px;">
                         </div>
                         <p>89 E. 42nd Street, New York, NY, United States.</p>
                     </div>
@@ -164,7 +168,7 @@
                     <div class="col-12 col-md-4 img-attrac text-center m-3 mx-auto p-2">
                         <p>One World Trade Center</p>
                         <div class="attrac-img">
-                            <img src="./resources/images/owt.jpg" alt="" class="img-fluid py-2" style="height: 300px;">
+                            <img src="./resources/images/owt.jpg" alt="Photo of one world trade center" class="img-fluid py-2" style="height: 300px;">
                         </div>
                         <p>285 Fulton St, New York, NY 10007, United States.</p>
                     </div>
@@ -175,6 +179,10 @@
         </div>
     </section>
     <!-- Top attractions end -->
+
+    <footer class="d-flex justify-content-center">
+        <p class="p-1">Copyright &copy; Christian Smith 2022.</p>
+    </footer>
     
 
     <!-- Bootstrap JS start -->

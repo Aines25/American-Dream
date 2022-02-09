@@ -122,4 +122,10 @@ body {
     }
  }
 
+
+ footer {
+     background-color: #242424;
+     color: white;
+     border-top: 1px solid white;
+ }
  

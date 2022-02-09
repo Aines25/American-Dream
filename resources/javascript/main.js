@@ -2,11 +2,11 @@ let aText = new Array(
     "New York City", 
     "The City that never sleeps."
     );
-    let iSpeed = 100; // time delay of print out
-    let iIndex = 0; // start printing array at this posision
-    let iArrLength = aText[0].length; // the length of the text array
-    let iScrollAt = 20; // start scrolling up at this many lines
-    let iTextPos = 0; // initialise text position
+    let iSpeed = 100; 
+    let iIndex = 0; 
+    let iArrLength = aText[0].length; 
+    let iScrollAt = 20; 
+    let iTextPos = 0; 
 
      
     function typewriter(){
@@ -29,6 +29,5 @@ let aText = new Array(
       setTimeout("typewriter()", iSpeed);
      }
     }
-    
-    
+     
     typewriter();
