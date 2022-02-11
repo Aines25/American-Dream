@@ -8,9 +8,8 @@ body {
     font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
     padding: 0;
-    margin: ;
+    margin: 0;
 }
-
 /* End of general styling  */
 
 /* main landing start */
@@ -79,9 +78,7 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .about-nyc h3 {
-      
-    } .attractions {
+    .attractions {
         display: flex;
     } .about-section {
         display: flex;
