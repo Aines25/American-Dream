@@ -14,7 +14,7 @@ body {
 /* main landing start */
 
 .main-photo {
-    background-image: url(/resources/images/main-photo-of-nyc.jpg);
+    background-image: url(../images/main-photo-of-nyc.jpg);
     background-size: cover;
     height: 100vh;
     color: white;
